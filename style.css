@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #7b7b7b;
+}
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.title__colored {
+	color: #F9BF3B;
+	font-size: 41px;
+	font-weight: 900;
+	line-height: 41px;
+	text-align: center;
+}
+
+.title__big {
+	font-size: 80px;
+	font-weight: 900;
+	line-height: 80px;
+	text-align: center;
+	color: #fff;
+}
+.promp__text {
+font-size: 21px;
+font-weight: 500;
+line-height: 28px;
+text-align: center;
+color: #fff;
+}
+span {
+color: #F9BF3B;
+}
