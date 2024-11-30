@@ -7,6 +7,7 @@
 
 body {
 	background-color: #7b7b7b;
+	font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -95,8 +96,9 @@ body {
 	height: 7px;
 	background: #F9BF3B;
 	margin: 0 auto;
-	margin-bottom: 15px;
-	margin-top: 14px;
+	margin-bottom: 40px;
+	margin-top: 12px;
+
 
 }
 
@@ -147,7 +149,7 @@ span {
 
 .intensive__item {
 	width: 360px;
-	 
+
 
 }
 
@@ -155,15 +157,50 @@ span {
 	font-size: 16px;
 	font-weight: 300;
 	text-align: center;
-    color: #4A4A4A;
+	color: #4A4A4A;
 
 }
 
 .intensive__img {
 	width: 100%;
-	 margin-bottom: 15px;
-	 
+	margin-bottom: 15px;
+
 }
+
+.info {
+	background-color: black;
+	padding-top: 100px;
+	padding-bottom: 139px;
+}
+
+.info__title {
+	color: #F9BF3B;
+	text-align: right;
+
+
+}
+
+.info__img {
+	position: absolute;
+	z-index: 1;
+}
+
+
+.info__text {
+	color: #fff;
+	text-align: right;
+	padding-left: 390px;
+	padding-bottom: 16px;
+	position: relative;
+	z-index: 2;
+}
+
+.skills__title{
+color: #fff;
+font-size: 30px;
+font-weight: 400;
+}
+
 
 
 .text2 {
@@ -172,10 +209,12 @@ span {
 
 .skills {
 	text-align: center;
-
+	background: url(image/skillsBg.jpg) center center / cover no-repeat;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 18.75px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .present_text {
@@ -188,7 +227,7 @@ span {
 }
 
 .surprise {
-	padding-top: 150px;
+	padding-top: 80px;
 }
 
 .layer12 img {
@@ -231,4 +270,95 @@ span {
 	font-weight: 300;
 	line-height: 18.75px;
 	text-align: center;
+}
+.skills__wrapper {
+	display: flex;
+}
+.skills__text {
+	size: 16px;
+	color: #EFEFEF;
+}
+ .skills__item {
+	margin-right: 20px;
+	min-width: 224px;
+    
+ }
+.skills__round {
+	width: 118px;
+	height: 118px;
+	background-color: #F9BF3B;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-bottom: 18px;
+}
+.surprise {
+	background-color: #EFEFEF;
+	padding-bottom: 80px;
+}
+.surprise__img {
+	display: block;
+	/* Убираем "inline" поведение изображения */
+	margin: 0 auto;
+	/* Центрируем по горизонтали */
+	width: 300px;
+	text-align: center;
+}
+.webinar__text {
+font-size: 23px;
+font-weight: 500;
+text-align: center;
+color: #fff;
+}
+.webinar__title {
+font-size: 36px;
+font-weight: 900;
+ color: #F9BF3B;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+.webinar__subtitle {
+font-size: 30px;
+font-weight: 500;
+ color: #EFEFEF;
+}
+.webinar__img {
+	margin: 0 auto;
+	width: 500px;
+height: 250px;
+ margin-bottom: 40px;
+}
+.webinar__img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.webinar {
+	background-color: #0F0B0B;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer {
+background-color: #1A1A1A;
+text-align: center;
+padding-bottom: 58px;
+padding-top: 58px;
+}
+.footer__links {
+ text-align: center;
+	color: #7b7b7b;
+}
+
+.footer__tel{
+	color: #7b7b7b;
+	transition: 0.3s;
+}
+
+
+.footer__tel:hover {
+	color: deepskyblue;
+	transition: 0.3s;
 }
